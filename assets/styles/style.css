@@ -79,3 +79,26 @@ header img {
     margin: 0px 15px 0px 0px;
     font-weight: 200;
 }
+
+#intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px 50px 200px;
+}
+
+#intro-text {
+    margin: 0px 0px 0px 100px;
+}
+#intro h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: var(--yellow);
+}
+
+#intro p {
+    font-size: 24px;
+    font-weight: 200;
+    color: var(--white);
+}
