@@ -1,5 +1,5 @@
 :root {
-    --white:#FFFFFF;
+    --white: #FFFFFF;
     --purple: #CA7EFC;
     --background: #724CFB;
     --yellow: #EED847;
@@ -10,6 +10,8 @@
     background-color: var(--background);
     font-family: 'Inter', sans-serif;
 }
+
+/* header */
 
 header {
     display: flex;
@@ -28,8 +30,8 @@ header img {
 #navbar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
-    list-style-type: none;   
+    justify-content: space-between;
+    list-style-type: none;
 }
 
 #navbar li {
@@ -40,31 +42,31 @@ header img {
 #navbar a {
     text-decoration: none;
     text-transform: none;
-    color: var(--yellow);   
+    color: var(--yellow);
 }
 
 #navbar a:link {
     text-decoration: none;
     text-transform: none;
-    color: var(--yellow);   
+    color: var(--yellow);
 }
 
 #navbar a:active {
     text-decoration: none;
     text-transform: none;
-    color: var(--yellow);   
+    color: var(--yellow);
 }
 
 #navbar a:hover {
     text-decoration: none;
     text-transform: none;
-    color: var(--yellow);   
+    color: var(--yellow);
 }
 
 #navbar a:visited {
     text-decoration: none;
     text-transform: none;
-    color: var(--yellow);   
+    color: var(--yellow);
 }
 
 #profile {
@@ -80,6 +82,8 @@ header img {
     font-weight: 200;
 }
 
+/* intro */
+
 #intro {
     display: flex;
     flex-direction: row;
@@ -91,6 +95,7 @@ header img {
 #intro-text {
     margin: 0px 0px 0px 100px;
 }
+
 #intro h1 {
     font-size: 48px;
     font-weight: 800;
