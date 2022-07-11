@@ -107,3 +107,62 @@ header img {
     font-weight: 200;
     color: var(--white);
 }
+
+/* server */
+
+#server {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 50px 500px 50px 500px;
+}
+
+#server-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#server-title img {
+    width: 50px;
+    height: 50px;
+}
+#server-title h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--yellow);
+    padding-left: 10px;
+}
+
+#server-text {
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 200;
+    margin: 0px 0px 0px 0px;
+    color: var(--white);
+}
+
+#server-button button{
+    background-color: var(--black);
+    border: none;
+    color: var(--yellow);
+    padding: 10px;
+    text-align: center;
+    font-weight: 800;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#server-button button:hover {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
+#server-button p {
+    font-size: 20px;
+    font-weight: 200;
+    color: var(--white);
+}
+
