@@ -127,6 +127,7 @@ header img {
     width: 50px;
     height: 50px;
 }
+
 #server-title h2 {
     font-size: 36px;
     font-weight: 800;
@@ -141,7 +142,7 @@ header img {
     margin: 0px 0px 0px 0px;
 }
 
-#server-button button{
+#server-button button {
     background-color: var(--black);
     border: none;
     color: var(--yellow);
@@ -184,6 +185,7 @@ header img {
     width: 50px;
     height: 50px;
 }
+
 #jobs-title h2 {
     font-size: 36px;
     font-weight: 800;
@@ -213,7 +215,7 @@ header img {
     gap: 10px;
 }
 
-#jobs button{
+#jobs button {
     background-color: var(--black);
     border: none;
     color: var(--yellow);
