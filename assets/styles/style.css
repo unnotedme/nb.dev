@@ -166,6 +166,11 @@ header img {
     color: var(--white);
 }
 
+#server a {
+    text-decoration: none;
+    color: var(--white);
+}
+
 /* jobs */
 
 #jobs {
