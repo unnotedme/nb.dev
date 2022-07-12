@@ -96,7 +96,7 @@ header img {
     margin: 0px 0px 0px 100px;
 }
 
-#intro h1 {
+#intro h2 {
     font-size: 48px;
     font-weight: 800;
     color: var(--yellow);
@@ -127,7 +127,7 @@ header img {
     width: 50px;
     height: 50px;
 }
-#server-title h1 {
+#server-title h2 {
     font-size: 36px;
     font-weight: 800;
     color: var(--yellow);
@@ -139,7 +139,6 @@ header img {
     font-size: 24px;
     font-weight: 200;
     margin: 0px 0px 0px 0px;
-    color: var(--white);
 }
 
 #server-button button{
@@ -166,3 +165,104 @@ header img {
     color: var(--white);
 }
 
+/* jobs */
+
+#jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 50px 200px 50px 200px;
+}
+
+#jobs-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#jobs-title img {
+    width: 50px;
+    height: 50px;
+}
+#jobs-title h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--yellow);
+    padding-left: 10px;
+}
+
+#jobs-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+}
+
+#jobs-text p {
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 200;
+}
+
+#job-offers ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 10px 0px 10px 0px;
+    gap: 10px;
+}
+
+#jobs button{
+    background-color: var(--black);
+    border: none;
+    color: var(--yellow);
+    padding: 10px;
+    text-align: center;
+    font-weight: 800;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#jobs button:hover {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
+#jobs p {
+    font-size: 24px;
+    font-weight: 200;
+    color: var(--white);
+}
+
+/* partner companies */
+
+#partner-companies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 200px 50px 200px;
+}
+
+#partner-companies h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--yellow);
+    align-items: center;
+}
+
+#partner-companies ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 200px;
+}
+
+#partner-companies h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--white);
+    text-align: center;
+}
