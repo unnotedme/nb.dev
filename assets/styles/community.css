@@ -1,0 +1,147 @@
+:root {
+    --white: #FFFFFF;
+    --purple: #CA7EFC;
+    --background: #724CFB;
+    --yellow: #EED847;
+    --black: #402995;
+}
+
+* {
+    background-color: var(--background);
+    font-family: 'Inter', sans-serif;
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 25px 25px 25px;
+    align-items: center;
+    font-size: 24px;
+}
+
+header img {
+    width: 40px;
+    height: 40px;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+#navbar li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+#navbar a {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--yellow);
+}
+
+#navbar a:link {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--yellow);
+}
+
+#navbar a:active {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--yellow);
+}
+
+#navbar a:hover {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--yellow);
+}
+
+#navbar a:visited {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--yellow);
+}
+
+#profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile a {
+    color: var(--white);
+    margin: 0px 15px 0px 0px;
+    font-weight: 200;
+}
+
+/* server */
+
+#server {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 150px 600px 150px 600px;
+    justify-content: center;
+}
+
+#server-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#server-title img {
+    width: 50px;
+    height: 50px;
+}
+
+#server-title h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--yellow);
+    padding-left: 10px;
+}
+
+#server-text {
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 200;
+    margin: 0px 0px 0px 0px;
+}
+
+#server-button button {
+    background-color: var(--black);
+    border: none;
+    color: var(--yellow);
+    padding: 10px;
+    text-align: center;
+    font-weight: 800;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#server-button button:hover {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
+#server-button p {
+    font-size: 20px;
+    font-weight: 200;
+    color: var(--white);
+}
+
+#server a {
+    text-decoration: none;
+    color: var(--white);
+}
