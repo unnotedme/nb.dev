@@ -289,7 +289,7 @@ header img {
     color: var(--yellow);
 }
 
-#articles-list ul {
+#articles-list {
     display: flex;
     flex-direction: column;
     list-style-type: none;
@@ -303,6 +303,7 @@ header img {
     justify-content: space-between;
     align-items: center;
     margin: 0px 0px 0px 0px;
+    background-color: var(--white);
 }
 
 #article a {
