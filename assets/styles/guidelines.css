@@ -1,0 +1,143 @@
+:root {
+    --white: #FFFFFF;
+    --purple: #CA7EFC;
+    --background: #724CFB;
+    --yellow: #EED847;
+    --black: #402995;
+}
+
+* {
+    background-color: var(--background);
+    font-family: 'Inter', sans-serif;
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 25px 25px 25px;
+    align-items: center;
+    font-size: 24px;
+}
+
+header img {
+    width: 40px;
+    height: 40px;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+#navbar li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+#navbar a {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--yellow);
+}
+
+#navbar a:link {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--yellow);
+}
+
+#navbar a:active {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--yellow);
+}
+
+#navbar a:hover {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--yellow);
+}
+
+#navbar a:visited {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--yellow);
+}
+
+#profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile a {
+    color: var(--white);
+    margin: 0px 15px 0px 0px;
+    font-weight: 200;
+}
+
+/* guidelines */
+
+#section-background {
+    background-color: var(--black);
+    padding: 80px;
+    border-radius: 5%;
+}
+
+#guidelines {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 50px 200px 50px 200px;
+}
+
+#guidelines h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--yellow);
+    background-color: var(--black);
+}
+
+#guidelines p {
+    font-size: 20px;
+    font-weight: 200;
+    color: var(--white);
+    background-color: var(--black);
+}
+
+#guidelines h3 {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--white);
+    background-color: var(--black);
+}
+
+#guidelines ul {
+    list-style-type: disc;
+    font-size: 20px;
+    font-weight: 200;
+    color: var(--white);
+    background-color: var(--black);
+}
+
+#guidelines li {
+    background-color: var(--black);
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 200;
+}
