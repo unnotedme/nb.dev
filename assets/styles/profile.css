@@ -82,3 +82,234 @@ header img {
     margin: 0px 15px 0px 0px;
     font-weight: 200;
 }
+
+/* profile */
+
+#profile-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 500px;
+}
+
+#profile-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#profile-image {
+    margin: 0px 50px 0px 50px;
+}
+
+#profile-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin: 0px 0px 0px 0px;
+}
+
+#profile-name h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0px 0px 0px 0px;
+}
+
+#profile-name img {
+    width: 30px;
+    height: 30px;
+}
+
+#profile-pronouns h4 {
+    font-size: 32px;
+    font-weight: 200;
+    margin: 0px 0px 0px 0px;
+}
+
+#profile-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* socials */
+#socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #402995;
+}
+
+/* biography */
+
+#biography h3 {
+    color: var(--yellow);
+    font-size: 32px;
+    font-weight: 800;
+    margin: 10px 50px 10px 50px;
+}
+
+#biography p {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--white);
+    text-align: left;
+    margin: 10px 50px 10px 50px;
+}
+
+/* articles */
+
+#articles h3 {
+    color: var(--yellow);
+    font-size: 32px;
+    font-weight: 800;
+    margin: 10px 50px 10px 50px;
+}
+
+#article-background {
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 50px 10px 50px;
+}
+
+#articles h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--yellow);
+}
+
+#articles-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 10px 0px 10px 0px;
+    gap: 10px;
+}
+
+#article {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--white);
+}
+
+#article-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    background-color: var(--white);
+}
+
+#article a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background-color: var(--white);
+}
+
+#article h3 {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--black);
+    text-align: left;
+    margin: 0px;
+    background-color: var(--white);
+}
+
+#article-image img {
+    background-color: var(--white);
+}
+
+#article p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+    text-align: left;
+    background-color: var(--white);
+}
+
+/* jobs */
+
+#jobs h3 {
+    color: var(--yellow);
+    font-size: 32px;
+    font-weight: 800;
+    margin: 10px 50px 10px 50px;
+}
+
+#job-offers ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 10px 0px 10px 0px;
+    gap: 10px;
+}
+
+#jobs button {
+    background-color: var(--black);
+    border: none;
+    color: var(--yellow);
+    padding: 10px;
+    text-align: center;
+    font-weight: 800;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#jobs button:hover {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
+/* community badges */
+
+#badges h3 {
+    color: var(--yellow);
+    font-size: 32px;
+    font-weight: 800;
+    margin: 10px 50px 10px 50px;
+}
+
+#badges-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+    align-items: center;
+    margin: 10px 50px 10px 50px;
+}
+
+/* community badges */
+
+#jobs-badges {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 500px;
+    align-items: flex-start;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 200;
+}
